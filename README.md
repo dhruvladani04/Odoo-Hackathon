@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
+TL- Dhyey Shekhaliya
+---
 
-## Project info
+````markdown
+# 🎯 Skill Swap Platform
 
-**URL**: https://lovable.dev/projects/176ae1cd-b3f1-413d-a8a2-b13a844ed909
+Welcome to the **Skill Swap Platform**, a full-stack web application built with **Next.js** that helps users exchange skills and knowledge. Whether you're offering guitar lessons or learning a new language, this platform connects people who want to grow together through mutual learning.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- **🔐 User Authentication**: Secure signup/login with session management using **NextAuth.js**.
+- **👤 Profile Management**: Users can create rich profiles with bios, photos, skills offered, and skills wanted.
+- **🔎 Skill Discovery**: Search and filter users by skill, location, or availability.
+- **🔁 Swap Request System**: Send/receive skill swap requests with status tracking (Pending, Ongoing, Completed).
+- **💬 Real-time Chat**: Built-in chat to facilitate communication and coordination.
+- **🌟 Review & Rating System**: Rate and review your learning partners to build community trust.
+- **🛠️ Admin Dashboard**: Manage users, moderate content, and analyze platform usage.
+- **📱 Responsive Design**: Built with **Tailwind CSS**, optimized for all devices.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/176ae1cd-b3f1-413d-a8a2-b13a844ed909) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Tech Stack
 
-**Use your preferred IDE**
+- **Framework**: Next.js 14+ (App Router)
+- **Database**: PostgreSQL
+- **ORM**: Prisma
+- **Authentication**: NextAuth.js
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🚀 Getting Started
 
-Follow these steps:
+### ✅ Prerequisites
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- Node.js v18+
+- npm or yarn
+- Git
+- Docker & Docker Compose *(optional but recommended)*
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+### 1. Clone the Repository
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone <your-repository-url>
+cd skill-swap-platform
+````
+
+---
+
+### 2. Start the Development Server
+
+
+---
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Getting Started
+
+First, run the development server:
+
+```bash
 npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
 ```
 
-**Edit a file directly in GitHub**
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-**Use GitHub Codespaces**
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/176ae1cd-b3f1-413d-a8a2-b13a844ed909) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
